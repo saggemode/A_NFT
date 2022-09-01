@@ -1,9 +1,10 @@
-
+import Layout from "../../components/Layout";
 
 const NFTPage = () => {
-  
   return (
-   <h3>details</h3>
+    <Layout>
+      <h3>details</h3>
+    </Layout>
   );
 };
 
