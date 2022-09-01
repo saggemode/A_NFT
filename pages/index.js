@@ -74,6 +74,7 @@ export default function Home() {
 
   return (
     <Layout>
+
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2  pt-20">
         {nfts.map((nft, i) => (
           <NftCard nft={nft} key={i} buyNFT={buyNFT} message={message}></NftCard>
