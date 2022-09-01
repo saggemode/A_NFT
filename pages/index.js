@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import axios from "axios";
 import Web3Modal from "web3modal";
 
-//import NFT from "../engine/NFT.json";
 import Market from "../engine/Market.json";
 import { useEffect, useState } from "react";
 //import { cipherHH, simpleCrypto } from "../engine/configuration";
